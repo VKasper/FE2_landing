@@ -1,0 +1,1 @@
+Hello! This is git-project for FE2-group Circle Web Academy.
