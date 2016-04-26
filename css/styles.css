@@ -61,3 +61,80 @@ footer .nav { font-size:24px; line-height:1.4em;}
 
 .copycode { position: relative;}
 .js-copy { position: absolute; right: 20px; top: 20px; padding: 10px 20px; font-size: 20px; color: grey; text-decoration: none; border: 1px solid grey; cursor: pointer;}
+
+   /*FOOTER*/
+footer{
+	padding: 0px;
+}
+.top-footer{
+	width: 100%;
+	height: 768px;
+	padding-top: 72px;
+	background: url(../images/bg-ft-room.png) no-repeat 0 0; 
+}
+.wrapper{
+	width: 1000px;
+	margin: 0 auto;
+}
+.top-footer h2{
+	text-align: center;
+    font-size: 44px;
+}
+.top-footer img{
+	display: block;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+.map{
+	width: 100%;
+	height: 347px;
+	background: #999999 url(../images/contacts-map.png) no-repeat 50% 0;
+	box-shadow: 0px 30px 30px -15px #999999;
+}
+.address{
+	width: 298px;
+	height: 85px;
+	padding-top: 42px;
+	position: relative;
+}
+.address::before {
+	content: "";
+	position: absolute;
+	background: url(../images/point.png) no-repeat 0 0;
+	width: 14px;
+	height: 19px;
+	left: -28px;
+	z-index: 99;
+}
+.address p{
+     line-height: 5px; 
+}
+.address p span{
+	padding-top: 20px;
+	font-size: 24px;
+} 
+.pufik{
+	background: url(../images/pufik.png) no-repeat ;
+    position: absolute;
+    width: 536px;
+    height: 370px;
+    margin-left: 550px;
+    bottom: 133px;
+}
+
+.bottom-footer{
+	width: 100%;
+	height: 81px;
+	background: #cc0000;
+}
+.bottom-footer_trav{
+	padding-top: 20px;
+}
+.bottom-footer_tel{
+	padding-top: 20px;
+}
+.bottom-footer_callback{
+	margin-left:20px; 
+	padding-top: 28px;
+}
