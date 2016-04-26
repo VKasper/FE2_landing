@@ -61,3 +61,39 @@ footer .nav { font-size:24px; line-height:1.4em;}
 
 .copycode { position: relative;}
 .js-copy { position: absolute; right: 20px; top: 20px; padding: 10px 20px; font-size: 20px; color: grey; text-decoration: none; border: 1px solid grey; cursor: pointer;}
+
+.fl_left {float: left;}
+.fl_right {float: right;}
+.align_center {text-align: center;}
+.reg {font-weight: normal;}
+.br {display: block;}
+
+.bg_1 {height:632px; box-sizing:border-box; background:url(../images/free_vis_bg.jpg) 100% 100% no-repeat;}
+.center {margin:0 auto; width:980px; padding:87px 0 74px 0;}
+.grey_block {height:469px; width:100%; background: url(../images/free_vis_shadowbox.png) no-repeat;}
+.title{padding-top:44px;}
+.title_1 {display:block; font-weight:300; font-size:37px; text-align:center;}
+.title_2{display:block;text-transform:uppercase; font-size:46px; text-align:center;}
+.application {margin-left:40px; padding-top:30px;}
+.application >.fl_left li {position:relative; font-size:20px; padding-left:28px; }
+.application >.fl_left li:before {position: absolute; content: ""; background: url(../images/free_vis_list_item.png); width:7px; height:8px; left:0; bottom:8px; }
+.application form {position:relative; padding:0 28px 0 40px;}
+.application form:before {content:""; position: absolute; width:4px; height:251px; left:0;background: url(../images/free_vis_red_line.png) no-repeat; }
+.application [type="text"] {box-sizing:border-box; height:37px; width:373px; padding:14px 0 14px 20px; margin-bottom:17px; border-radius:2px; font-size:14px; cursor:pointer;}
+.application form p:first-of-type {padding-top: 15px;}
+.application form p:nth-child(3) {margin-bottom:25px;}
+#subm_btn {display: none;}
+#subm_btn+label {display:inline-block; padding-left:262px; height:49px; background:url(../images/free_vs_certbtn.png); cursor:pointer;}
+[type="text"]:hover {border:1px solid red;}
+
+.guarantee {text-align: center; font-weight: 300; color:#333333;}
+.guar_title {position:relative;padding-bottom:30px;color:#333333; text-align:center;text-transform:uppercase; font-size:61px; font-weight:300;}
+.guar_title:before {position: absolute; content: ""; width:455px; height:11px; bottom:0;right:270px;background: url(../images/guarantee_line.png) no-repeat;}
+.guar_title+p {padding:40px 0 45px; font-size:18px;}
+.guarantee ul {display: table; width:100%;}
+.guarantee ul li {display: table-cell; font-size:23px; font-weight:600; color:#333333;text-transform: uppercase;}
+/*.guarantee ul {text-align:justify; font-size:0; line-height:0;}
+.guarantee ul li {display: inline-block; font-size:23px; line-height: normal; text-align:center;}
+.guarantee ul:after {content: ""; display: inline-block; width:100%; line-height: 0; font-size:0;}*/
+.guarantee ul li img {display: block; position:relative; margin: 0 auto 34px; cursor:pointer;}
+.jur_cases {display:block; padding-top:16px; font-size:17px; font-weight: normal; text-transform: none;}
